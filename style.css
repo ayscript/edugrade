@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*:focus {
+  outline: 2px solid #7aa8bf;
+}
+
+a {
+  color: #7cd2fb;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  background: none;
+  border: 1px solid;
+}
+
+body {
+  background: linear-gradient(135deg, #1e9be8 0%, #192838 100%);
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+main {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-inline: 20px;
+}
+
+.login-form {
+  max-width: 480px;
+  margin-inline: auto;
+  background: #2b759b;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #3d9dcb;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.login-form h1 {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.login-form .btn {
+  background: white;
+  width: 100%;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.login-form .login-btn {
+  background: #0ea5e9;
+  color: white;
+}
+
+.logo {
+  color: white;
+  background: #3d9dcb;
+  text-align: center;
+  margin-inline: auto;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #7aa8bf;
+  background: #417d9c;
+  color: white;
+  font-size: 18px;
+}
+
+.inputContainer > div{
+    position: relative;
+}
+
+.show-password-btn{
+    background: none;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 25%;
+}
+
+.inputContainer input::placeholder {
+  color: #899eb5;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  margin-block: 4px;
+}
+
+.divider hr {
+  flex-grow: 1;
+  height: 1px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  min-width: 30px;
+}
+
+.divider span {
+  color: #fff;
+  opacity: 0.8;
+  font-weight: 500;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
